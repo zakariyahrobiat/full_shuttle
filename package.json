@@ -1,0 +1,48 @@
+{
+  "name": "ful_shuttle",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://hawyy.github.io/ful_shutlle",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.4.0",
+    "antd": "^5.17.3",
+    "autoprefixer": "^10.4.19",
+    "bcrypt": "^5.1.1",
+    "core-js": "^3.37.1",
+    "firebase": "^10.12.2",
+    "firebase-tools": "^13.10.2",
+    "gh-pages": "^6.1.1",
+    "install": "^0.13.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
+    "postcss-cli": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.4",
+    "react-router-dom": "^6.23.1",
+    "sort-by": "^1.2.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
